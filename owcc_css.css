@@ -1,0 +1,847 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Nov-2018, 15:34:19
+    Author     : Act
+*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #fd9c29; 
+    float: left;
+    width: 100%;
+}
+
+body { 
+  background: url(assets/white_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.twitter-timeline {
+    height: 100vh !important;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+
+.mainheadline {
+    float: left;
+    font-size: calc(12px + 2vw);
+    text-transform: uppercase;
+    font-family: 'Russo One', Impact, sans-serif;
+    display: inline-block;
+}
+
+.discord_topright{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    display: inline-block;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 4px 16px;
+    font-size: calc(10px + 1vw);
+    font-family: 'Russo One', Impact, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.twitter-widget {
+    top: 50px;
+    position: absolute;
+    right: 5px;
+    width: 15%;
+    display: block;
+}
+
+.main_top {
+    width: 100%;
+    padding-top: 50px;
+    display: block;
+    height: 300px;
+    position: relative;
+}
+
+.teamrow{
+    padding: 20px 20px;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    float: left;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Russo One', Impact, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+#harmony {
+  background: #e7c92b;
+}
+
+#dallas {
+    background: #885656;
+}
+
+#london {
+    background: #ff8200;
+}
+
+#mortals {
+    background: #f1d854;
+    color: #477033;
+}
+
+#nyxd {
+    background: #001235;
+}
+
+#philadelphia {
+    background: #000000;
+    color: #ffffff;
+}
+
+#boston {
+    background: #174b97;
+    color: #EEDF00;
+}
+
+#sanfran {
+    background: #ffffff;
+}
+
+#atlanta {
+    background: #bcdbff;
+}
+
+#cosmic {
+    background: #000000;
+}
+
+#houston {
+    background: #000000;
+    color: #96cc59;
+}
+
+#smol {
+    background: #000000;
+    color: #ad8900;
+}
+
+#glory {
+    background: #ffffff;
+    color: #3a165c;
+}
+
+#shanghai {
+    background: #d22730;
+    color: #fce300;
+}
+
+.maintable {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border: none;
+    vertical-align: top;
+}
+
+tbody {
+    vertical-align: top;
+}
+
+.about-text {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    margin-left: 5%;
+    float: left;
+    width: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    font-size: calc(5px + 0.5vw);
+    position: relative;
+}
+
+.second-text {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-align: right;
+    width: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    margin-left: -220px;
+    left: calc(5%+220px);
+    font-size: calc(5px + 0.5vw);
+    display: inline-block;
+    position: relative;
+}
+
+.third-text {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 5%;
+    float: left;
+    width: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    font-size: calc(5px + 0.5vw);
+}
+
+.right-picture{
+    margin-top: 10px;
+    margin-left: -220px;
+    float: left;
+    height: 300px;
+    position: relative;
+}
+
+.lower-right-picture{
+    margin-top: 0px;
+    margin-left: -120px;
+    float: left;
+    height: 300px;
+    position: relative;
+}
+
+.left-picture{
+    margin-top: -100px;
+    margin-left: 5%;
+    height: 300px;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.main_two {
+    width: 100%;
+    padding-top: 0px;
+    display: block;
+    height: 300px;
+}
+
+.main_three {
+    width: 100%;
+    padding-top: 0px;
+    display: block;
+    height: 300px;
+}
+
+@media only screen and (max-width: 2000px){
+    .lower-right-picture {
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .about-text {
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    font-size: calc(7px + 0.5vw);
+    }
+    .second-text {
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    font-size: calc(7px + 0.5vw);
+    margin-left: -190px;
+    margin-top: -20px;
+    }
+    .third-text {
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    font-size: calc(7px + 0.5vw);
+    margin-top: -20px;
+    }
+    .left-picture {
+        margin-top: -120px;
+    }
+    .lower-right-picture {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 1577px) {
+    .left-picture {
+        margin-top: -130px;
+    }
+    .second-text {
+        margin-top: -35px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .navslash {
+        height: 18px;
+    }
+}
+
+@media only screen and (max-width: 1260px){
+    .left-picture {
+        margin-left: 4%;
+    }
+    .about-text {
+        margin-left: 4%;
+    }
+    .third-text {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .twitter-widget {
+        right: 10px;
+    }
+    .right-picture {
+        margin-left: -230px;
+    }
+    .navslash {
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .left-picture{
+        height: 270px;
+        margin-top: -95px;
+        margin-left: 3%;
+    }
+    .right-picture{
+        height: 270px;
+        margin-left: -200px;
+    }
+    .lower-right-picture{
+        height: 270px;
+        margin-top: -35px;
+        margin-left: -120px;
+    }
+    .about-text {
+        margin-left: 3%;
+    }
+    .second-text{
+        margin-top: -15px;
+        margin-left: -200px;
+    }
+    .third-text{
+        margin-top: -15px;
+        margin-left: 3%;
+    }
+    .twitter-widget {
+        right: 17px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .twitter-widget {
+        right: 21px;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .twitter-widget {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .about-text {
+        padding-left: 40px;
+        font-size: calc(9px + 0.5vw);
+    }
+    .second-text {
+        padding-right: 40px;
+        font-size: calc(9px + 0.5vw);
+        margin-top: 0px;
+    }
+    .third-text {
+        padding-left: 40px;
+        font-size: calc(9px + 0.5vw);
+    }
+    .main-top {
+        padding-top: 0px;
+    }
+    .left-picture {
+        margin-top: -80px;
+    }
+    .lower-right-picture {
+        margin-left: -110px;
+    }
+    .twitter-widget {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .right-picture {
+        height: 250px;
+        margin-top: 5px;
+        margin-left: -185px;
+    }
+    .left-picture {
+        height: 250px;
+        margin-top: -55px;
+    }
+    .lower-right-picture {
+        height: 250px;
+        margin-left: -90px;
+    }
+    .second-text {
+        margin-left: -190px;
+        margin-top: 15px;
+    }
+    .third-text {
+        margin-top: -10px;
+    }
+    .twitter-widget {
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1022px) {
+    .third-text {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .about-text {
+        margin-top: 60px;
+    }
+    .left-picture{
+        margin-left: 2%;
+        margin-top: -65px;
+    }
+    .second-text {
+        margin-top: 5px;
+    }
+    .about-text {
+        margin-left: 2%;
+    }
+    .third-text{
+        margin-left: 2%;
+    }
+    .twitter-widget {
+        right: 35px;
+    }
+    .navslash {
+        height: 14px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .left-picture {
+        height: 220px;
+        margin-top: -60px;
+    }
+    .right-picture {
+        height: 220px;
+        margin-left: -180px;
+    }
+    .lower-right-picture {
+        height: 220px;
+        margin-top: -20px;
+    }
+    .about-text {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .second-text {
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+        margin-left: -170px;
+    }
+    .third-text {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+    .twitter-widget {
+        right: 40px;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .right-picture{
+        margin-left: -170px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .right-picture{
+        margin-left: -180px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .lower-right-picture{
+        height: 200px;
+        margin-top: -25px;
+    }
+    .third-text {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .twitter-widget{
+        display: none;
+    }
+    .about-text {
+        margin-left: 5%;
+    }
+    .left-picture {
+        margin-left: 5%;
+    }
+    .third-text {
+        margin-left: 5%;
+    }
+    .lower-right-picture {
+        margin-left: -80px;
+        margin-top: -10px;
+    }
+    .mainheadline {
+        font-size: calc(17px + 2vw);
+    }
+    .discordlinkimg {
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 861px) {
+    .twitter-widget{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 818px) {
+    .left-picture {
+        margin-top: -40px;
+    }
+    .second-text {
+        margin-top: 25px;
+    }
+    .third-text {
+        margin-top: 15px;
+    }
+    .lower-right-picture {
+        margin-top: 0px;
+    }
+    .navslash {
+        height: 12px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .discordlinkimg {
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .navbar a {
+    font-size: 17px;
+    padding: 4px 10px;
+    }
+    .navslash {
+        height: 10px;
+    }
+    .left-picture {
+        margin-top: -40px;
+    }
+    .second-text {
+        margin-left: -400px;
+        margin-top: 10px;
+        float: right;
+        margin-right: 5%;
+    }
+    .third-text {
+        margin-top: 0px;
+    }
+    .right-picture {
+        float: right;
+        margin-right: 5%;
+        margin-left: -300px;
+    }
+    .lower-right-picture {
+        float: right;
+        height: 220px;
+        margin-right: 5%;
+        margin-top: 30px;
+        margin-left: -300px;
+    }
+    .discordlinkimg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 592px) {
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .right-picture {
+        height: 200px;
+        margin-bottom: -20px;
+    }
+    .left-picture {
+        height: 200px;
+        margin-top: -30px;
+        margin-bottom: -15px;
+    }
+    .lower-right-picture {
+        height: 200px;
+        margin-top: -10px;
+    }
+    .about-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 35px;
+    }
+    .second-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .third-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 661px) {
+    .discordlinkimg {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    .navbar a {
+        font-size: 14px;
+    }
+    .navslash {
+        height: 8px;
+    }
+    .right-picture {
+        margin-right: 4%;
+    }
+    .left-picture {
+        margin-left: 4%;
+        margin-top: -35px;
+    }
+    .second-text {
+        margin-right: 4%;
+    }
+    .lower-right-picture {
+        margin-right: 4%;
+    }
+    .about-text {
+        margin-left: 4%;
+    }
+    .third-text {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .left-picture {
+        margin-top: -45px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .third-text {
+        margin-top: 15px;
+        margin-left: 3%;
+    }
+    .second-text {
+        margin-top: 5px;
+        margin-right: 3%;
+    }
+    .lower-right-picture {
+        margin-top: 20px;
+        margin-right: 3%;
+    }
+    .right-picture {
+        margin-right: 3%;
+    }
+    .left-picture {
+        margin-left: 3%;
+    }
+    .about-text {
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .right-picture {
+        height: 180px;
+    }
+    .left-picture {
+        height: 180px;
+        margin-top: -25px;
+    }
+    .lower-right-picture {
+        height: 170px;
+    }
+    .second-text {
+        margin-top: 20px;
+    }
+    .third-text {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 501px) {
+    .left-picture {
+        margin-top: -15px;
+        margin-bottom: -35px;
+    }
+}
+
+@media only screen and (max-width: 477px) {
+    .navbar a {
+        font-size: 12px;
+    }
+    .navslash {
+        height: 6px;
+    }
+    .mainheadline {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+    .mainheadline {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about-text {
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+    .second-text {
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    .third-text {
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+    .left-picture {
+        height: 170px;
+    }
+    .right-picture {
+        height: 170px;
+    }
+    .lower-right-picture {
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .about-text {
+        margin-left: 1%;
+    }
+    .right-picture {
+        margin-right: 1%;
+    }
+    .left-picture {
+        margin-left: 1%;
+    }
+    .second-text {
+        margin-right: 1%;
+    }
+    .third-text {
+        margin-left: 1%;
+    }
+    .lower-right-picture {
+        margin-right: 1%;
+    }
+    .mainheadline {
+        font-size: 21px;
+    }
+    .navbar a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .navbar a {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .mainheadline {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 373px) {
+    .right-picture {
+        height: 150px;
+    }
+    .left-picture {
+        height: 150px;
+    }
+    .lower-right-picture {
+        height: 130px;
+    }
+}
