@@ -242,6 +242,16 @@ text-decoration:none !important;
     color: #fce300;
 }
 
+#vixens {
+    background: #f65fab;
+    color: #ffffff;
+}
+
+#vixens2 {
+    background: #ffffff;
+    color: #f65fab;
+}
+
 .maintable {
     padding: 0px 0px;
     margin: 0px 0px;
